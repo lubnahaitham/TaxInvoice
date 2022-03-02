@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="col-10">
+    <div class="card-header">
+        <a href="" class="btn btn-light" style="float:right">
+            <i class="fas fa-plus"></i>Add New
+        </a>
+        <h2>Pos List</h2>
+    </div>
+    <br>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <td>Item Code</td>
+            <td>Description</td>
+            <td>Quantity</td>
+            <td>Price</td>
+            <td>Discount</td>
+            <td>Total</td>
+            <td>VAT%</td>
+            <td>VAT</td>
+
+        </tr>
+        </thead>
+
+        <tbody>
+        {% for pos in pos_list %}
+        <tr>
+            <td>{{pos.item_code}}</td>
+            <td>{{pos.description}}</td>
+            <td>{{pos.quantity}}</td>
+            <td>{{pos.price}}</td>
+            <td>{{pos.discount}}</td>
+            <td>{{pos.total}}</td>
+            <td>{{pos.vat_percent}} %</td>
+            <td>{{pos.vat}}</td>
+
+        </tr>
+        {%endfor%}
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <td>Total</td>
+            <td>Discount</td>
+            <td>NET Wihtout VAT</td>
+            <td>VAT %</td>
+            <td>Value</td>
+            <!--            <td>Value</td>-->
+        </tr>
+        </thead>
+
+        <tbody>
+        {% for pos in pos_list %}
+        <tr>
+            <td>{{pos.total}}</td>
+            <td>{{pos.discount}}</td>
+            <td>{{pos.total}}</td>
+            <td>{{pos.vat}}</td>
+            <td>{{pos.value}}</td>
+
+
+        </tr>
+
+        {%endfor%}
+        </tbody>
+    </table>
+
+    {% endblock content %}

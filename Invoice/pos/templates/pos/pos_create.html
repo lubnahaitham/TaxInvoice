@@ -1,0 +1,221 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+  <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+            <div class="col-12">
+                <div class="card-header" >
+                    <h2 style="color:black">Pos Create</h2>
+                </div>
+                <div class="card-body">
+                </div>
+
+                    <form action="" method="post" autocomplete="off" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <div class="row">
+<!--                            <div class="col-md-4">-->
+<!--                                <label>Setting ID: </label>-->
+<!--                                <input type="text" class="form-control" value="{{ setting_data.id }} " readonly>-->
+<!--                            </div>-->
+                            <div class="col-md-4">
+                                <label>Organization Name:</label>
+                                <input type="text" class="form-control" value="{{ setting_data.organization_name }}"
+                                       readonly>
+
+                            </div>
+                            <div class="col-md-4">
+                                <label>Building Number:</label>
+                                <input type="text" class="form-control" value="{{ setting_data.building_number }}" readonly>
+                            </div>
+                            <div class="col-md-4">
+                                <label>Street Name :</label>
+                                <input type="text" class="form-control" value="{{ setting_data.street_name }}" readonly>
+                            </div>
+                            <div class="col-md-4">
+                                <label>District :</label>
+                                <input type="text" class="form-control" value="{{ setting_data.district }}" readonly>
+                            </div>
+                            <div class="col-md-4">
+                                <label>City  :</label>
+                                <input type="text" class="form-control" value="{{ setting_data.city }}" readonly>
+                            </div>
+                            <div class="col-md-4">
+                                <label>Country :</label>
+                                <input type="text" name="pos" class="form-control" value="{{ setting_data.country }}"
+                                       readonly>
+                            </div>
+                            <div class="col-md-4">
+                                <label>Postal Code :</label>
+                                <input type="text" name="pos" class="form-control" value="{{ setting_data.postal_code }}"
+                                       readonly>
+                            </div>
+                            <div class="col-md-4">
+                                <label>Additional Number :</label>
+                                <input type="text" name="pos" class="form-control" value="{{ setting_data.additional_number }}"
+                                       readonly>
+                            </div>
+                            <div class="col-md-4">
+                                <label>Vat Number :</label>
+                                <input type="text" name="pos" class="form-control" value="{{ setting_data.vat_number }}"
+                                       readonly>
+                            </div>
+                            <div class="col-md-4">
+                                <label>Other Seller Id :</label>
+                                <input type="text" name="pos" class="form-control" value="{{ setting_data.other_buyer_id }}"
+                                       readonly>
+                            </div>
+
+
+                        </div>
+
+                    </form>
+
+            <br>
+
+                  <form action="" method="post" autocomplete="off" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <div class="row">
+<!--                            <div class="col-md-4">-->
+<!--                                <label>Buyer ID: </label>-->
+<!--                                <input type="text" class="form-control" value="{{ buyer_data.id }}" >-->
+<!--                            </div>-->
+                            <div class="col-md-4">
+                                <label>Buyer Organization Name:</label>
+                                <input type="text" class="form-control" value="{{ buyer_data.organization_name }}">
+
+                            </div>
+                            <div class="col-md-4">
+                                <label>Buyer Building Number:</label>
+                                <input type="text" class="form-control" value="{{ buyer_data.building_number }}" >
+                            </div>
+                            <div class="col-md-4">
+                                <label>Buyer Street Name :</label>
+                                <input type="text" class="form-control" value="{{ buyer_data.street_name }}" >
+                            </div>
+                            <div class="col-md-4">
+                                <label>Buyer District :</label>
+                                <input type="text" class="form-control" value="{{ buyer_data.district }}" >
+                            </div>
+                            <div class="col-md-4">
+                                <label>Buyer City  :</label>
+                                <input type="text" class="form-control" value="{{ buyer_data.city }}" >
+                            </div>
+                            <div class="col-md-4">
+                                <label>Buyer Country :</label>
+                                <input type="text" name="pos" class="form-control" value="{{ buyer_data.country }}"
+                                       >
+                            </div>
+                            <div class="col-md-4">
+                                <label>Buyer Postal Code :</label>
+                                <input type="text" name="pos" class="form-control" value="{{ buyer_data.postal_code }}"
+                                       >
+                            </div>
+                            <div class="col-md-4">
+                                <label>Buyer Additional Number :</label>
+                                <input type="text" name="pos" class="form-control" value="{{ buyer_data.additional_number }}"
+                                       >
+                            </div>
+                            <div class="col-md-4">
+                                <label>Buyer Vat Number :</label>
+                                <input type="text" name="pos" class="form-control" value="{{ buyer_data.vat_number }}"
+                                       >
+                            </div>
+                            <div class="col-md-4">
+                                <label>Buyer Other Buyer Id :</label>
+                                <input type="text" name="pos" class="form-control" value="{{ buyer_data.other_buyer_id }}"
+                                      >
+                            </div>
+
+
+                        </div>
+
+                    </form>
+
+            <br>
+
+                  <form action="" method="post" autocomplete="off" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <div class="row">
+
+                            <div class="col-md-4">
+                                <label>Product Item Code:</label>
+                                <input type="text" class="form-control" value="{{ product_data.item_code }}">
+
+                            </div>
+                            <div class="col-md-4">
+                                <label>Product item Name:</label>
+                                <input type="text" class="form-control" value="{{ product_data.item_name }}" >
+                            </div>
+                            <div class="col-md-4">
+                                <label>Product description :</label>
+                                <input type="text" class="form-control" value="{{ product_data.description }}" >
+                            </div>
+                            <div class="col-md-4">
+                                <label>Product Price :</label>
+                                <input type="text" class="form-control" value="{{ product_data.price }}" >
+                            </div>
+
+                        </div>
+
+                    </form>
+
+            <br>
+
+
+            <form action="" method="post" autocomplete="off" enctype="multipart/form-data">
+                {% csrf_token %}
+                <table class="table table-striped">
+
+                    <tbody>
+                    <tr>
+                        <td>{{ form.item_code|as_crispy_field }}</td>
+                        <td> {{ form.description|as_crispy_field }}</td>
+                        <td> {{ form.price|as_crispy_field }}</td>
+                        <td>{{ form.quantity|as_crispy_field }}</td>
+                        <td>{{ form.discount|as_crispy_field }}</td>
+
+
+                    </tr>
+
+                    </tbody>
+                </table>
+                <table class="col-12 table table-striped">
+
+                    <tbody>
+                    <tr>
+
+                        <td>{{ form.total|as_crispy_field }}</td>
+                        <td>{{ form.vat_percent|as_crispy_field }}</td>
+                        <td>{{ form.vat|as_crispy_field }}</td>
+
+
+
+                    </tr>
+                    </tbody>
+
+                </table>
+
+
+                <br>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <i class="fa-solid fa-bookmark"></i>
+                        save
+                    </button>
+                    &nbsp;
+                    <a href="{% url 'pos_list' %}" class="btn btn-primary btn-block float_right"><i
+                            class="fa-solid fa-list"></i>
+
+                        Back to list</a>
+                </div>
+                <div>
+                </div>
+
+            </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+{% endblock content %}

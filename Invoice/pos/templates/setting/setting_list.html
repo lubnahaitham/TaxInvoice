@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <div class="col-12">
+            <div class="card-header" style="background-color:#0B5ED7">
+                <h2 style="color:white">Setting List</h2>
+            </div>
+            <br>
+            <table class="table table-striped">
+                <thead style="background-color:#2072bb">
+                <tr class="col-10">
+
+                    <th scope="col" style="color:white">Setting Organization Name</th>
+                    <th scope="col" style="color:white">Setting Building Number</th>
+                    <th scope="col" style="color:white">Setting Street Name</th>
+                    <th scope="col" style="color:white">Setting District</th>
+                    <th scope="col" style="color:white">Setting City</th>
+                    <th scope="col" style="color:white">Setting Country</th>
+                    <th scope="col" style="color:white">Setting Postal Code</th>
+                    <th scope="col" style="color:white">Setting Additional Number</th>
+                    <th scope="col" style="color:white">Setting Vat Number</th>
+                    <th scope="col" style="color:white">Setting Other Buyer Id</th>
+                    <th scope="col" style="color:white">Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for setting in setting_list %}
+                <tr>
+
+                    <td>{{ setting.organization_name }}</td>
+                    <td>{{ setting.building_number }}</td>
+                    <td>{{ setting.street_name }}</td>
+                    <td>{{ setting.district }}</td>
+                    <td>{{ setting.city }}</td>
+                    <td>{{ setting.country }}</td>
+                    <td>{{ setting.postal_code }}</td>
+                    <td>{{ setting.additional_number }}</td>
+                    <td>{{ setting.vat_number }}</td>
+                    <td>{{ setting.other_buyer_id }}</td>
+
+
+                    <td>
+                        <a href="{% url 'setting_update' setting.id %}" class="btn text-secondary px-0">
+                            <i class="far fa-edit fa-lg"></i>
+                        </a>
+
+                        <a href="{% url 'pos_seller_create' setting.id %}" class="btn btn-outline-primary"
+                           style="float:right">
+                            <i class="fas fa-plus"></i>Add Pos
+                        </a>
+                    </td>
+
+
+                </tr>
+
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</main>
+
+{% endblock content %}

@@ -1,0 +1,724 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-09 02:57-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admins/templates/addCategories.html:25
+msgid "Add New Category"
+msgstr ""
+
+#: admins/templates/addCategories.html:34 admins/templates/addProducts.html:35
+#: admins/templates/editCategory.html:36 admins/templates/editProducts.html:33
+msgid "Name in English:"
+msgstr ""
+
+#: admins/templates/addCategories.html:38 admins/templates/addProducts.html:39
+#: admins/templates/editCategory.html:42 admins/templates/editProducts.html:40
+msgid "Name in Arabic:"
+msgstr ""
+
+#: admins/templates/addCategories.html:42 admins/templates/addProducts.html:43
+#: admins/templates/viewCategory.html:11 admins/templates/viewPage.html:12
+msgid "Code:"
+msgstr ""
+
+#: admins/templates/addCategories.html:46 admins/templates/addInvoice.html:55
+#: admins/templates/addProducts.html:78 admins/templates/editCategory.html:49
+#: admins/templates/editInvoice.html:52 admins/templates/editProducts.html:90
+#: admins/templates/viewCategory.html:62 admins/templates/viewInvoice.html:30
+#: admins/templates/viewPage.html:106 pos/templates/pos2.html:258
+msgid "Discount:"
+msgstr ""
+
+#: admins/templates/addCategories.html:51 admins/templates/editCategory.html:56
+#: admins/templates/viewCategory.html:31
+msgid "Parent Category:"
+msgstr ""
+
+#: admins/templates/addCategories.html:73 admins/templates/addProducts.html:84
+#: admins/templates/editCategory.html:78 admins/templates/editProducts.html:104
+#: admins/templates/viewCategory.html:68 admins/templates/viewPage.html:118
+msgid "POS:"
+msgstr ""
+
+#: admins/templates/addCategories.html:77 admins/templates/addProducts.html:88
+#: admins/templates/editCategory.html:85 admins/templates/editProducts.html:97
+#: admins/templates/viewCategory.html:74 admins/templates/viewPage.html:124
+msgid "Digital Menu:"
+msgstr ""
+
+#: admins/templates/addCategories.html:90 admins/templates/addInvoice.html:106
+#: admins/templates/addProducts.html:179
+#: admins/templates/addPurchasing.html:153 admins/templates/addStaff.html:118
+#: admins/templates/addSupplier.html:90 pos/templates/pos2.html:188
+msgid "ADD"
+msgstr ""
+
+#: admins/templates/addCounter.html:40
+msgid "Open Amount:"
+msgstr ""
+
+#: admins/templates/addInvoice.html:26
+msgid "Add New Invoice"
+msgstr ""
+
+#: admins/templates/addInvoice.html:35 admins/templates/editInvoice.html:36
+#: admins/templates/viewInvoice.html:12
+msgid "Invoice #:"
+msgstr ""
+
+#: admins/templates/addInvoice.html:43 admins/templates/editInvoice.html:87
+#: admins/templates/viewInvoice.html:56
+msgid "Invoice Date:"
+msgstr ""
+
+#: admins/templates/addInvoice.html:47 admins/templates/editInvoice.html:42
+#: admins/templates/viewInvoice.html:21
+msgid "Invoice Due Date:"
+msgstr ""
+
+#: admins/templates/addInvoice.html:51 admins/templates/editInvoice.html:94
+#: admins/templates/viewInvoice.html:62
+msgid "Amount:"
+msgstr ""
+
+#: admins/templates/addInvoice.html:60 admins/templates/addProducts.html:93
+#: admins/templates/addStaff.html:87 admins/templates/editStaff.html:131
+msgid "Image:"
+msgstr ""
+
+#: admins/templates/addInvoice.html:70 admins/templates/editInvoice.html:73
+#: admins/templates/viewInvoice.html:42
+msgid "VAT:"
+msgstr ""
+
+#: admins/templates/addInvoice.html:75 admins/templates/editInvoice.html:66
+msgid "Shipping Cost:"
+msgstr ""
+
+#: admins/templates/addInvoice.html:79 admins/templates/addPurchasing.html:107
+#: admins/templates/editInvoice.html:79 admins/templates/editPurchases.html:109
+#: admins/templates/viewInvoice.html:48 admins/templates/viewPurchases.html:96
+msgid "Paid Amount:"
+msgstr ""
+
+#: admins/templates/addInvoice.html:83 admins/templates/editInvoice.html:59
+#: admins/templates/editOrder.html:89 admins/templates/viewInvoice.html:36
+msgid "Items:"
+msgstr ""
+
+#: admins/templates/addInvoice.html:87 admins/templates/editInvoice.html:102
+#: admins/templates/viewInvoice.html:70
+msgid "Supplier:"
+msgstr ""
+
+#: admins/templates/addInvoice.html:95 admins/templates/addPurchasing.html:135
+#: admins/templates/editInvoice.html:114 admins/templates/editOrder.html:67
+#: admins/templates/editPurchases.html:137 admins/templates/viewInvoice.html:78
+#: admins/templates/viewOrder.html:41 admins/templates/viewPurchases.html:124
+msgid "Payment Method:"
+msgstr ""
+
+#: admins/templates/addProducts.html:25
+msgid "Add New Product"
+msgstr ""
+
+#: admins/templates/addProducts.html:47 admins/templates/editProducts.html:72
+#: admins/templates/viewPage.html:46
+msgid "Cost Price:"
+msgstr ""
+
+#: admins/templates/addProducts.html:52 admins/templates/editProducts.html:84
+#: admins/templates/editProducts.html:136
+#: admins/templates/editProducts.html:142 admins/templates/viewPage.html:100
+msgid "Selling Price:"
+msgstr ""
+
+#: admins/templates/addProducts.html:57 admins/templates/editProducts.html:47
+#: admins/templates/viewPage.html:33
+msgid "Category:"
+msgstr ""
+
+#: admins/templates/addPurchasing.html:26
+msgid "Add new Purchase"
+msgstr ""
+
+#: admins/templates/addPurchasing.html:35
+#: admins/templates/editPurchases.html:36
+msgid "Item in English:"
+msgstr ""
+
+#: admins/templates/addPurchasing.html:39
+#: admins/templates/editPurchases.html:40
+msgid "Item in Arabic:"
+msgstr ""
+
+#: admins/templates/addPurchasing.html:43
+#: admins/templates/editPurchases.html:44
+#: admins/templates/viewPurchases.html:44
+msgid "Expiry Date:"
+msgstr ""
+
+#: admins/templates/addPurchasing.html:54
+#: admins/templates/editPurchases.html:53
+#: admins/templates/viewPurchases.html:55
+msgid "Invoice Number:"
+msgstr ""
+
+#: admins/templates/addPurchasing.html:71
+#: admins/templates/editPurchases.html:73
+#: admins/templates/viewPurchases.html:68
+msgid "Quantity:"
+msgstr ""
+
+#: admins/templates/addPurchasing.html:78
+#: admins/templates/editPurchases.html:79
+#: admins/templates/viewPurchases.html:75
+msgid "Measurement:"
+msgstr ""
+
+#: admins/templates/addPurchasing.html:85
+#: admins/templates/editPurchases.html:87
+#: admins/templates/viewPurchases.html:82
+msgid "Unit:"
+msgstr ""
+
+#: admins/templates/addPurchasing.html:100 admins/templates/editOrder.html:74
+#: admins/templates/editPurchases.html:101
+#: admins/templates/viewPurchases.html:89
+msgid "Total Amount:"
+msgstr ""
+
+#: admins/templates/addPurchasing.html:114
+#: admins/templates/editPurchases.html:116
+#: admins/templates/viewPurchases.html:103
+msgid "Remaining Amount:"
+msgstr ""
+
+#: admins/templates/addPurchasing.html:121
+#: admins/templates/editPurchases.html:123 admins/templates/viewOrder.html:96
+#: admins/templates/viewPurchases.html:110
+msgid "Vat:"
+msgstr ""
+
+#: admins/templates/addPurchasing.html:128
+#: admins/templates/editPurchases.html:130
+#: admins/templates/viewPurchases.html:117
+msgid "Net:"
+msgstr ""
+
+#: admins/templates/addStaff.html:25
+msgid "Add New User"
+msgstr ""
+
+#: admins/templates/addStaff.html:34 admins/templates/editStaff.html:33
+#: admins/templates/viewStaff.html:15
+msgid "First Name:"
+msgstr ""
+
+#: admins/templates/addStaff.html:38 admins/templates/editStaff.html:39
+#: admins/templates/viewStaff.html:51
+msgid "Last Name:"
+msgstr ""
+
+#: admins/templates/addStaff.html:42 admins/templates/editStaff.html:45
+#: admins/templates/viewStaff.html:21
+msgid "Username:"
+msgstr ""
+
+#: admins/templates/addStaff.html:46 admins/templates/editStaff.html:51
+#: admins/templates/viewStaff.html:57
+msgid "Email:"
+msgstr ""
+
+#: admins/templates/addStaff.html:50
+msgid "Password:"
+msgstr ""
+
+#: admins/templates/addStaff.html:67 admins/templates/editStaff.html:74
+#: admins/templates/viewStaff.html:27
+msgid "Residence ID:"
+msgstr ""
+
+#: admins/templates/addStaff.html:72 admins/templates/editStaff.html:80
+#: admins/templates/viewStaff.html:63
+msgid "Phone:"
+msgstr ""
+
+#: admins/templates/addStaff.html:78 admins/templates/editStaff.html:86
+#: admins/templates/viewStaff.html:39
+msgid "Role:"
+msgstr ""
+
+#: admins/templates/addStaff.html:92 admins/templates/editStaff.html:100
+msgid "Tables:"
+msgstr ""
+
+#: admins/templates/addStaff.html:105 admins/templates/editStaff.html:117
+msgid "Shift from:"
+msgstr ""
+
+#: admins/templates/addStaff.html:109 admins/templates/editStaff.html:123
+msgid "Shift to"
+msgstr ""
+
+#: admins/templates/addSupplier.html:23
+msgid "Add New Supplier"
+msgstr ""
+
+#: admins/templates/addSupplier.html:32 admins/templates/editSupplier.html:32
+#: admins/templates/viewSupplier.html:9
+msgid "Name"
+msgstr ""
+
+#: admins/templates/addSupplier.html:36 admins/templates/editSupplier.html:38
+#: admins/templates/viewSupplier.html:16
+msgid "Email"
+msgstr ""
+
+#: admins/templates/addSupplier.html:41 admins/templates/editSupplier.html:45
+msgid "Register Number"
+msgstr ""
+
+#: admins/templates/addSupplier.html:46 admins/templates/editSupplier.html:50
+#: admins/templates/viewSupplier.html:30
+msgid "Address"
+msgstr ""
+
+#: admins/templates/addSupplier.html:51 admins/templates/editSupplier.html:57
+#: admins/templates/viewSupplier.html:37
+msgid "City"
+msgstr ""
+
+#: admins/templates/addSupplier.html:56 admins/templates/editSupplier.html:62
+#: admins/templates/viewSupplier.html:44
+msgid "Country"
+msgstr ""
+
+#: admins/templates/addSupplier.html:61 admins/templates/editSupplier.html:67
+#: admins/templates/viewSupplier.html:51
+msgid "Contact Person"
+msgstr ""
+
+#: admins/templates/addSupplier.html:68 admins/templates/editSupplier.html:74
+#: admins/templates/viewSupplier.html:59
+msgid "Contact Person Phone"
+msgstr ""
+
+#: admins/templates/addSupplier.html:73 admins/templates/editSupplier.html:81
+#: admins/templates/viewSupplier.html:66
+msgid "Contact Person Email"
+msgstr ""
+
+#: admins/templates/addSupplier.html:78 admins/templates/editSupplier.html:88
+#: admins/templates/viewSupplier.html:73
+msgid "Vat Number"
+msgstr ""
+
+#: admins/templates/addSupplier.html:83 admins/templates/editSupplier.html:95
+#: admins/templates/viewSupplier.html:79
+msgid "Payment Method"
+msgstr ""
+
+#: admins/templates/admin_page.html:115 admins/templates/cashier_page.html:110
+#: admins/templates/dashb.html:89 admins/templates/dashb.html:173
+#: admins/templates/invoicesList.html:53 admins/templates/invoicesList.html:55
+msgid "Category"
+msgstr ""
+
+#: admins/templates/admin_page.html:123 admins/templates/cashier_page.html:118
+#: admins/templates/dashb.html:86 admins/views.py:1190
+msgid "Products"
+msgstr ""
+
+#: admins/templates/admin_page.html:131 admins/views.py:1197
+msgid "Users"
+msgstr ""
+
+#: admins/templates/admin_page.html:171 admins/templates/cashier_page.html:166
+msgid "Counters"
+msgstr ""
+
+#: admins/templates/admin_page.html:187 admins/templates/cashier_page.html:182
+#: admins/templates/dashb.html:85 admins/views.py:1166
+msgid "Orders"
+msgstr ""
+
+#: admins/templates/admin_page.html:195 admins/templates/cashier_page.html:190
+#: admins/templates/dashb.html:87 admins/views.py:1159
+msgid "Purchases"
+msgstr ""
+
+#: admins/templates/admin_page.html:203 admins/templates/cashier_page.html:198
+#: admins/views.py:1229
+msgid "Invoices"
+msgstr ""
+
+#: admins/templates/admin_page.html:211 admins/templates/cashier_page.html:206
+#: admins/views.py:1223
+msgid "Suppliers"
+msgstr ""
+
+#: admins/templates/admin_page.html:227 admins/templates/tax.html:25
+msgid "Tax"
+msgstr ""
+
+#: admins/templates/admin_page.html:259 admins/templates/cashier_page.html:254
+#: admins/templates/dashb.html:88 admins/views.py:1236
+msgid "Inventory"
+msgstr ""
+
+#: admins/templates/admin_page.html:267 admins/templates/cashier_page.html:262
+msgid "Reports & Analytics"
+msgstr ""
+
+#: admins/templates/dashb.html:82
+msgid "Choose"
+msgstr ""
+
+#: admins/templates/dashb.html:92
+msgid "Time period"
+msgstr ""
+
+#: admins/templates/dashb.html:95
+msgid "Today"
+msgstr ""
+
+#: admins/templates/dashb.html:96
+msgid "By Date"
+msgstr ""
+
+#: admins/templates/dashb.html:97
+msgid "All Time"
+msgstr ""
+
+#: admins/templates/dashb.html:100
+msgid "From"
+msgstr ""
+
+#: admins/templates/dashb.html:102
+msgid "To"
+msgstr ""
+
+#: admins/templates/dashb.html:111
+msgid "Download as CSV"
+msgstr ""
+
+#: admins/templates/dashb.html:112
+msgid "Go"
+msgstr ""
+
+#: admins/templates/dashb.html:133 admins/templates/dashb.html:208
+msgid "Product"
+msgstr ""
+
+#: admins/templates/dashb.html:134
+msgid "Price"
+msgstr ""
+
+#: admins/templates/dashb.html:135
+msgid "VAT"
+msgstr ""
+
+#: admins/templates/dashb.html:136 admins/templates/dashb.html:174
+#: admins/templates/dashb.html:210 admins/templates/invoicesList.html:62
+#: admins/templates/invoicesList.html:65
+msgid "Quantity"
+msgstr ""
+
+#: admins/templates/dashb.html:137 admins/templates/dashb.html:175
+msgid "Total Price Without VAT"
+msgstr ""
+
+#: admins/templates/dashb.html:138 admins/templates/dashb.html:176
+#: admins/templates/dashb.html:213 admins/templates/dashb.html:249
+msgid "Total VAT"
+msgstr ""
+
+#: admins/templates/dashb.html:139
+msgid "Total With VAT"
+msgstr ""
+
+#: admins/templates/dashb.html:140 admins/templates/dashb.html:178
+msgid "Invoices Quantity"
+msgstr ""
+
+#: admins/templates/dashb.html:177
+msgid "Total Price With VAT"
+msgstr ""
+
+#: admins/templates/dashb.html:209 admins/templates/dashb.html:276
+#: admins/templates/invoicesList.html:63 admins/templates/invoicesList.html:66
+msgid "Unit"
+msgstr ""
+
+#: admins/templates/dashb.html:211 admins/templates/dashb.html:248
+msgid "Total Price"
+msgstr ""
+
+#: admins/templates/dashb.html:212 admins/templates/dashb.html:275
+msgid "Measurement"
+msgstr ""
+
+#: admins/templates/dashb.html:214
+msgid "Purchase Times"
+msgstr ""
+
+#: admins/templates/dashb.html:250
+msgid "Total Orders"
+msgstr ""
+
+#: admins/templates/dashb.html:274
+msgid "Item"
+msgstr ""
+
+#: admins/templates/editCategory.html:102 admins/templates/editInvoice.html:131
+#: admins/templates/editOrder.html:151 admins/templates/editProducts.html:180
+#: admins/templates/editPurchases.html:161 admins/templates/editStaff.html:149
+#: admins/templates/editSupplier.html:108
+msgid "Save"
+msgstr ""
+
+#: admins/templates/editCounter.html:36
+msgid "Close Amount:"
+msgstr ""
+
+#: admins/templates/editOrder.html:27
+msgid "Edit Order"
+msgstr ""
+
+#: admins/templates/editOrder.html:37 admins/templates/viewOrder.html:11
+msgid "Order #:"
+msgstr ""
+
+#: admins/templates/editOrder.html:44 admins/templates/viewCategory.html:18
+#: admins/templates/viewOrder.html:18 admins/templates/viewPage.html:19
+#: admins/templates/viewPurchases.html:138
+msgid "Created Date:"
+msgstr ""
+
+#: admins/templates/editOrder.html:50 admins/templates/viewCategory.html:24
+#: admins/templates/viewOrder.html:24 admins/templates/viewPage.html:25
+#: admins/templates/viewPurchases.html:152
+msgid "Modified Date:"
+msgstr ""
+
+#: admins/templates/editOrder.html:58 admins/templates/viewOrder.html:32
+msgid "Customer:"
+msgstr ""
+
+#: admins/templates/editOrder.html:83 admins/templates/viewOrder.html:47
+msgid "Table #:"
+msgstr ""
+
+#: admins/templates/editOrder.html:99
+msgid "Status:"
+msgstr ""
+
+#: admins/templates/editOrder.html:108 admins/templates/viewCategory.html:50
+#: admins/templates/viewOrder.html:54 admins/templates/viewPage.html:88
+#: admins/templates/viewPurchases.html:131
+msgid "Created By:"
+msgstr ""
+
+#: admins/templates/editOrder.html:116 admins/templates/viewCategory.html:56
+#: admins/templates/viewOrder.html:60 admins/templates/viewPage.html:94
+#: admins/templates/viewPurchases.html:145
+msgid "Modified By:"
+msgstr ""
+
+#: admins/templates/editOrder.html:125 pos/templates/pos2.html:272
+msgid "Order Type:"
+msgstr ""
+
+#: admins/templates/editOrder.html:131 admins/templates/tax.html:34
+#: pos/templates/pos2.html:254
+msgid "Tax:"
+msgstr ""
+
+#: admins/templates/editOrder.html:137 admins/templates/viewOrder.html:66
+msgid "Waiter ID:"
+msgstr ""
+
+#: admins/templates/editPurchases.html:27
+msgid "Edit Purchasing"
+msgstr ""
+
+#: admins/templates/invoicesList.html:34
+msgid "Add"
+msgstr ""
+
+#: admins/templates/invoicesList.html:51 admins/templates/viewOrder.html:74
+msgid "Item Name"
+msgstr ""
+
+#: admins/templates/invoicesList.html:68
+msgid "Actions"
+msgstr ""
+
+#: admins/templates/tax.html:43
+msgid "Include Tax:"
+msgstr ""
+
+#: admins/templates/viewCategory.html:40 admins/templates/viewPage.html:78
+msgid "Name:"
+msgstr ""
+
+#: admins/templates/viewOrder.html:73
+msgid "Item ID"
+msgstr ""
+
+#: admins/templates/viewOrder.html:75
+msgid "Item Price"
+msgstr ""
+
+#: admins/templates/viewOrder.html:76
+msgid "Item Quantity"
+msgstr ""
+
+#: admins/templates/viewOrder.html:77
+msgid "Total Amount"
+msgstr ""
+
+#: admins/templates/viewOrder.html:95 pos/templates/pos2.html:250
+msgid "Sub Total:"
+msgstr ""
+
+#: admins/templates/viewOrder.html:97 pos/templates/pos2.html:262
+msgid "Total:"
+msgstr ""
+
+#: admins/templates/viewPage.html:53 admins/templates/viewPage.html:60
+msgid "Total Price:"
+msgstr ""
+
+#: admins/templates/viewPurchases.html:36
+msgid "Item:"
+msgstr ""
+
+#: admins/templates/viewStaff.html:33
+msgid "Branch Name:"
+msgstr ""
+
+#: admins/templates/viewStaff.html:98
+msgid "Shifts:"
+msgstr ""
+
+#: admins/templates/viewSupplier.html:23
+msgid "Phone"
+msgstr ""
+
+#: admins/views.py:1172
+msgid "Tables"
+msgstr ""
+
+#: admins/views.py:1178
+msgid "Categories"
+msgstr ""
+
+#: admins/views.py:1184
+msgid "Customers"
+msgstr ""
+
+#: pos/templates/pos2.html:86 pos/templates/pos2.html:206
+msgid "Order #"
+msgstr ""
+
+#: pos/templates/pos2.html:87 pos/templates/pos2.html:207
+msgid "Table #"
+msgstr ""
+
+#: pos/templates/pos2.html:88 pos/templates/pos2.html:208
+msgid "View"
+msgstr ""
+
+#: pos/templates/pos2.html:146
+msgid "New Order"
+msgstr ""
+
+#: pos/templates/pos2.html:223
+msgid "item"
+msgstr ""
+
+#: pos/templates/pos2.html:224
+msgid "price"
+msgstr ""
+
+#: pos/templates/pos2.html:225
+msgid "qty."
+msgstr ""
+
+#: pos/templates/pos2.html:274
+msgid "Dinin"
+msgstr ""
+
+#: pos/templates/pos2.html:275
+msgid "Take Away"
+msgstr ""
+
+#: pos/templates/pos2.html:278
+msgid "Waiter Name:"
+msgstr ""
+
+#: pos/templates/pos2.html:282
+msgid "Table Number:"
+msgstr ""
+
+#: pos/templates/pos2.html:285
+msgid "Payment Type:"
+msgstr ""
+
+#: pos/templates/pos2.html:288
+msgid "Cash"
+msgstr ""
+
+#: pos/templates/pos2.html:289
+msgid "Card"
+msgstr ""
+
+#: pos/templates/pos2.html:294
+msgid "Submit"
+msgstr ""
+
+#: pos/templates/pos2.html:301
+msgid "Checkout"
+msgstr ""
+
+#: pos/templates/pos2.html:304
+msgid "Cancel Order"
+msgstr ""
+
+#: pos/templates/upload_form.html:12
+msgid "Products Excel File:"
+msgstr ""
+
+#: pos/templates/upload_form.html:18
+msgid "Categories Excel File:"
+msgstr ""
+
+#: pos/templates/upload_form.html:23
+msgid "Upload Products Images"
+msgstr ""
+
+#: pos/templates/upload_form.html:28
+msgid "All Excel files must end with .xlsx or .xls"
+msgstr ""
+
+#: pos/templates/upload_form.html:29
+msgid "Upload"
+msgstr ""

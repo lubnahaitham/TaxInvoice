@@ -1,0 +1,786 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-19 15:44+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: admins/forms.py:25
+msgid "Name in English"
+msgstr "الاسم بالانجليزي"
+
+#: admins/forms.py:26
+msgid "Name in Arabic"
+msgstr "الاسم بالعربي"
+
+#: admins/forms.py:28 admins/forms.py:53 admins/templates/dashb.html:233
+#: admins/templates/dashb.html:300 admins/templates/invoicesList.html:77
+#: admins/templates/invoicesList.html:80
+msgid "Unit"
+msgstr "الوحدة"
+
+#: admins/forms.py:54
+msgid "Item in English:"
+msgstr "العنصر بالانجليزي:"
+
+#: admins/forms.py:55
+msgid "Item in Arabic:"
+msgstr "العنصر بالعربي:"
+
+#: admins/forms.py:56
+msgid "Quantity:"
+msgstr "العدد:"
+
+#: admins/forms.py:57
+msgid "Measurement:"
+msgstr "المقياس:"
+
+#: admins/forms.py:58
+msgid "Expiry Date:"
+msgstr "تاريخ الانتهاء:"
+
+#: admins/templates/addCategories.html:25
+msgid "Add New Category"
+msgstr "اضف تصنيف جديد"
+
+#: admins/templates/addCategories.html:34 admins/templates/addProducts.html:35
+#: admins/templates/editCategory.html:42 admins/templates/editProducts.html:41
+msgid "Name in English:"
+msgstr "الاسم بالانجليزي:"
+
+#: admins/templates/addCategories.html:38 admins/templates/addProducts.html:39
+#: admins/templates/editCategory.html:48 admins/templates/editProducts.html:48
+msgid "Name in Arabic:"
+msgstr "الاسم بالعربي:"
+
+#: admins/templates/addCategories.html:42 admins/templates/addProducts.html:43
+#: admins/templates/editCategory.html:36 admins/templates/viewCategory.html:11
+#: admins/templates/viewPage.html:12
+msgid "Code:"
+msgstr "الرمز:"
+
+#: admins/templates/addCategories.html:46 admins/templates/addInvoice.html:55
+#: admins/templates/addProducts.html:73 admins/templates/editCategory.html:55
+#: admins/templates/editInvoice.html:51 admins/templates/editProducts.html:98
+#: admins/templates/viewCategory.html:62 admins/templates/viewInvoice.html:30
+#: admins/templates/viewPage.html:106 pos/templates/pos2.html:292
+msgid "Discount:"
+msgstr "الخصم:"
+
+#: admins/templates/addCategories.html:51 admins/templates/editCategory.html:62
+#: admins/templates/viewCategory.html:31
+msgid "Parent Category:"
+msgstr "التصنيف:"
+
+#: admins/templates/addCategories.html:66 admins/templates/addProducts.html:79
+#: admins/templates/editCategory.html:91 admins/templates/editProducts.html:112
+#: admins/templates/viewCategory.html:68 admins/templates/viewPage.html:118
+msgid "POS:"
+msgstr "نقاط البيع:"
+
+#: admins/templates/addCategories.html:70 admins/templates/addProducts.html:83
+#: admins/templates/editCategory.html:98 admins/templates/editProducts.html:105
+#: admins/templates/viewCategory.html:74 admins/templates/viewPage.html:124
+msgid "Digital Menu:"
+msgstr "القائمة:"
+
+#: admins/templates/addCategories.html:77 admins/templates/addInvoice.html:105
+#: admins/templates/addProducts.html:140
+#: admins/templates/addPurchasing.html:102 admins/templates/addStaff.html:118
+#: admins/templates/addSupplier.html:88 pos/templates/pos2.html:221
+msgid "ADD"
+msgstr "اضف"
+
+#: admins/templates/addCounter.html:40
+msgid "Open Amount:"
+msgstr "مبلغ الافتتاح:"
+
+#: admins/templates/addInvoice.html:26
+msgid "Add New Invoice"
+msgstr "اضف فاتورة جديدة"
+
+#: admins/templates/addInvoice.html:35 admins/templates/addPurchasing.html:35
+#: admins/templates/editInvoice.html:36 admins/templates/editPurchases.html:38
+#: admins/templates/viewInvoice.html:12 admins/templates/viewPurchases.html:30
+msgid "Invoice #:"
+msgstr "رقم الفاتورة:"
+
+#: admins/templates/addInvoice.html:43 admins/templates/addPurchasing.html:40
+#: admins/templates/editInvoice.html:86 admins/templates/editPurchases.html:51
+#: admins/templates/viewInvoice.html:56 admins/templates/viewPurchases.html:46
+msgid "Invoice Date:"
+msgstr "تاريخ الفاتورة:"
+
+#: admins/templates/addInvoice.html:47 admins/templates/addPurchasing.html:45
+#: admins/templates/editInvoice.html:42 admins/templates/editPurchases.html:44
+#: admins/templates/viewInvoice.html:21 admins/templates/viewPurchases.html:34
+msgid "Invoice Due Date:"
+msgstr "تاريخ الاستحقاق:"
+
+#: admins/templates/addInvoice.html:51 admins/templates/addPurchasing.html:50
+#: admins/templates/editOrder.html:74 admins/templates/editPurchases.html:57
+msgid "Total Amount:"
+msgstr " اجمالي الفاتورة:"
+
+#: admins/templates/addInvoice.html:60 admins/templates/addProducts.html:88
+#: admins/templates/addPurchasing.html:55 admins/templates/addStaff.html:54
+#: admins/templates/editStaff.html:131
+msgid "Image:"
+msgstr "الصورة:"
+
+#: admins/templates/addInvoice.html:67 admins/templates/editInvoice.html:72
+#: admins/templates/viewInvoice.html:42
+msgid "VAT:"
+msgstr "الضريبة:"
+
+#: admins/templates/addInvoice.html:72 admins/templates/editInvoice.html:65
+msgid "Shipping Cost:"
+msgstr "مبلغ الشحن:"
+
+#: admins/templates/addInvoice.html:76 admins/templates/addPurchasing.html:93
+#: admins/templates/editInvoice.html:78 admins/templates/editPurchases.html:121
+#: admins/templates/viewInvoice.html:48 admins/templates/viewPurchases.html:42
+msgid "Paid Amount:"
+msgstr "المبلغ المدفوع:"
+
+#: admins/templates/addInvoice.html:80 admins/templates/editInvoice.html:58
+#: admins/templates/editOrder.html:89 admins/templates/viewInvoice.html:36
+msgid "Items:"
+msgstr "العناصر:"
+
+#: admins/templates/addInvoice.html:84 admins/templates/addPurchasing.html:64
+#: admins/templates/editInvoice.html:100 admins/templates/editPurchases.html:75
+#: admins/templates/viewInvoice.html:70 admins/templates/viewPurchases.html:55
+msgid "Supplier:"
+msgstr "المورد:"
+
+#: admins/templates/addInvoice.html:93 admins/templates/addPurchasing.html:84
+#: admins/templates/editInvoice.html:112 admins/templates/editOrder.html:67
+#: admins/templates/editPurchases.html:106 admins/templates/viewInvoice.html:78
+#: admins/templates/viewOrder.html:43 admins/templates/viewPurchases.html:73
+msgid "Payment Method:"
+msgstr "طريقة الدفع:"
+
+#: admins/templates/addProducts.html:25
+msgid "Add New Product"
+msgstr "اضف منتج جديد"
+
+#: admins/templates/addProducts.html:47 admins/templates/editProducts.html:80
+#: admins/templates/viewPage.html:46
+msgid "Cost Price:"
+msgstr "سعر التكلفة"
+
+#: admins/templates/addProducts.html:52 admins/templates/editProducts.html:92
+#: admins/templates/viewPage.html:100
+msgid "Selling Price:"
+msgstr "سعر البيع"
+
+#: admins/templates/addProducts.html:57 admins/templates/editProducts.html:55
+#: admins/templates/viewPage.html:33
+msgid "Category:"
+msgstr "التصنيفات"
+
+#: admins/templates/addPurchasing.html:25
+msgid "Add new Purchase"
+msgstr "اضف مشتريات جديدة"
+
+#: admins/templates/addPurchasing.html:97
+#: admins/templates/editPurchases.html:127
+#: admins/templates/viewPurchases.html:38
+msgid "VAT Number:"
+msgstr "الرقم الضريبي:"
+
+#: admins/templates/addStaff.html:25
+msgid "Add New User"
+msgstr "اضف مستخدم جديد"
+
+#: admins/templates/addStaff.html:34 admins/templates/editStaff.html:33
+#: admins/templates/viewStaff.html:15
+msgid "First Name:"
+msgstr "الاسم الاول:"
+
+#: admins/templates/addStaff.html:38 admins/templates/editStaff.html:39
+#: admins/templates/viewStaff.html:51
+msgid "Last Name:"
+msgstr "الاسم الاخير:"
+
+#: admins/templates/addStaff.html:42 admins/templates/editStaff.html:45
+#: admins/templates/viewStaff.html:21
+msgid "Username:"
+msgstr "اسم المستخدم:"
+
+#: admins/templates/addStaff.html:46 admins/templates/editStaff.html:51
+#: admins/templates/viewStaff.html:57
+msgid "Email:"
+msgstr "البريد الالكتروني:"
+
+#: admins/templates/addStaff.html:50
+msgid "Password:"
+msgstr "كلمة السر:"
+
+#: admins/templates/addStaff.html:71 admins/templates/editStaff.html:74
+#: admins/templates/viewStaff.html:27
+msgid "Residence ID:"
+msgstr "رقم الهوية:"
+
+#: admins/templates/addStaff.html:76 admins/templates/editStaff.html:80
+#: admins/templates/viewStaff.html:63
+msgid "Phone:"
+msgstr "رقم الهاتف:"
+
+#: admins/templates/addStaff.html:82 admins/templates/editStaff.html:86
+#: admins/templates/viewStaff.html:39
+msgid "Role:"
+msgstr "الوظيفة:"
+
+#: admins/templates/addStaff.html:92 admins/templates/editStaff.html:100
+msgid "Tables:"
+msgstr "الطاولة:"
+
+#: admins/templates/addStaff.html:105 admins/templates/editStaff.html:117
+msgid "Shift from:"
+msgstr "المناوبة من:"
+
+#: admins/templates/addStaff.html:109 admins/templates/editStaff.html:123
+msgid "Shift to"
+msgstr "المناوبة الى:"
+
+#: admins/templates/addSupplier.html:23
+msgid "Add New Supplier"
+msgstr "اضف مورد جديد"
+
+#: admins/templates/addSupplier.html:32 admins/templates/complaint.html:33
+#: admins/templates/editSupplier.html:32 admins/templates/viewSupplier.html:9
+msgid "Name"
+msgstr "الاسم"
+
+#: admins/templates/addSupplier.html:36 admins/templates/complaint.html:37
+#: admins/templates/editSupplier.html:38 admins/templates/viewSupplier.html:16
+msgid "Email"
+msgstr "البريد الالكتروني"
+
+#: admins/templates/addSupplier.html:41 admins/templates/editSupplier.html:45
+msgid "Registeration Number"
+msgstr "رقم التسجيل"
+
+#: admins/templates/addSupplier.html:46 admins/templates/editSupplier.html:52
+#: admins/templates/viewSupplier.html:30
+msgid "Address"
+msgstr "العنوان"
+
+#: admins/templates/addSupplier.html:51 admins/templates/editSupplier.html:59
+#: admins/templates/viewSupplier.html:37
+msgid "City"
+msgstr "المدينة"
+
+#: admins/templates/addSupplier.html:56 admins/templates/editSupplier.html:66
+#: admins/templates/viewSupplier.html:44
+msgid "Country"
+msgstr "الدولة"
+
+#: admins/templates/addSupplier.html:62 admins/templates/editSupplier.html:73
+#: admins/templates/viewSupplier.html:51
+msgid "Contact Person"
+msgstr "مسؤول الاتصال"
+
+#: admins/templates/addSupplier.html:66 admins/templates/editSupplier.html:80
+#: admins/templates/viewSupplier.html:59
+msgid "Contact Person Phone"
+msgstr "رقم مسؤول الاتصال"
+
+#: admins/templates/addSupplier.html:71 admins/templates/editSupplier.html:87
+#: admins/templates/viewSupplier.html:66
+msgid "Contact Person Email"
+msgstr "البريد الالكتروني  لمسؤول الاتصال"
+
+#: admins/templates/addSupplier.html:76 admins/templates/editSupplier.html:94
+#: admins/templates/viewSupplier.html:73
+msgid "Vat Number"
+msgstr "الرقم الضريبي"
+
+#: admins/templates/addSupplier.html:81 admins/templates/editSupplier.html:101
+#: admins/templates/viewSupplier.html:79
+msgid "Payment Method"
+msgstr "طريقة الدفع"
+
+#: admins/templates/admin_page.html:130 admins/templates/cashier_page.html:125
+#: admins/templates/dashb.html:110 admins/templates/dashb.html:197
+#: admins/templates/invoicesList.html:67 admins/templates/invoicesList.html:69
+msgid "Category"
+msgstr "التصنيفات"
+
+#: admins/templates/admin_page.html:138 admins/templates/cashier_page.html:133
+#: admins/templates/dashb.html:107 admins/views.py:1176
+msgid "Products"
+msgstr "المنتجات"
+
+#: admins/templates/admin_page.html:146 admins/views.py:1184
+msgid "Users"
+msgstr "المستخدمين"
+
+#: admins/templates/admin_page.html:186 admins/templates/cashier_page.html:181
+msgid "POS"
+msgstr "نقاط البيع"
+
+#: admins/templates/admin_page.html:202 admins/templates/cashier_page.html:197
+#: admins/templates/dashb.html:106 admins/views.py:1148
+msgid "Orders"
+msgstr "الطلبات"
+
+#: admins/templates/admin_page.html:210 admins/templates/cashier_page.html:205
+#: admins/templates/dashb.html:108 admins/views.py:1140
+msgid "Purchases"
+msgstr "المشتريات"
+
+#: admins/templates/admin_page.html:218 admins/templates/cashier_page.html:213
+#: admins/views.py:1218
+msgid "Invoices"
+msgstr "الفواتير"
+
+#: admins/templates/admin_page.html:226 admins/templates/cashier_page.html:221
+#: admins/views.py:1211
+msgid "Suppliers"
+msgstr "الموردين"
+
+#: admins/templates/admin_page.html:242 admins/templates/tax.html:25
+msgid "Tax"
+msgstr "الضريبة"
+
+#: admins/templates/admin_page.html:274 admins/templates/cashier_page.html:269
+#: admins/templates/dashb.html:109 admins/views.py:1226
+msgid "Inventory"
+msgstr "المخزون"
+
+#: admins/templates/admin_page.html:282 admins/templates/cashier_page.html:277
+msgid "Reports & Analytics"
+msgstr "التقارير"
+
+#: admins/templates/admin_page.html:290
+msgid "Import Data"
+msgstr "رفع البيانات"
+
+#: admins/templates/complaint.html:41
+msgid "Coffee Name"
+msgstr "اسم الكافيه"
+
+#: admins/templates/complaint.html:45 admins/templates/viewSupplier.html:23
+msgid "Phone"
+msgstr "رقم الهاتف:"
+
+#: admins/templates/complaint.html:49
+msgid "Subject"
+msgstr "الموضوع"
+
+#: admins/templates/complaint.html:53
+msgid "Message"
+msgstr "الرسالة"
+
+#: admins/templates/dashb.html:103
+msgid "Choose"
+msgstr "اختر"
+
+#: admins/templates/dashb.html:113
+msgid "Time period"
+msgstr "الفترة الزمنية"
+
+#: admins/templates/dashb.html:116
+msgid "Today"
+msgstr "اليوم"
+
+#: admins/templates/dashb.html:117
+msgid "Weekly"
+msgstr "اسبوعي"
+
+#: admins/templates/dashb.html:118
+msgid "Monthly"
+msgstr "شهري"
+
+#: admins/templates/dashb.html:119
+msgid "Yearly"
+msgstr "سنوي"
+
+#: admins/templates/dashb.html:120
+msgid "Custom"
+msgstr "مخصص"
+
+#: admins/templates/dashb.html:121
+msgid "All Time"
+msgstr "الكل"
+
+#: admins/templates/dashb.html:124
+msgid "From"
+msgstr "من"
+
+#: admins/templates/dashb.html:126
+msgid "To"
+msgstr "الى"
+
+#: admins/templates/dashb.html:135
+msgid "Download as CSV"
+msgstr "تحميل"
+
+#: admins/templates/dashb.html:136
+msgid "Go"
+msgstr "نفذ"
+
+#: admins/templates/dashb.html:157 admins/templates/dashb.html:232
+msgid "Product"
+msgstr "المنتج"
+
+#: admins/templates/dashb.html:158
+msgid "Price"
+msgstr "السعر "
+
+#: admins/templates/dashb.html:159
+msgid "VAT"
+msgstr "الضريبة"
+
+#: admins/templates/dashb.html:160 admins/templates/dashb.html:198
+#: admins/templates/dashb.html:234 admins/templates/invoicesList.html:76
+#: admins/templates/invoicesList.html:79
+msgid "Quantity"
+msgstr "الكمية"
+
+#: admins/templates/dashb.html:161 admins/templates/dashb.html:199
+msgid "Total Price Without VAT"
+msgstr "اجمالي السعر بدون ضريبة"
+
+#: admins/templates/dashb.html:162 admins/templates/dashb.html:200
+#: admins/templates/dashb.html:237 admins/templates/dashb.html:273
+msgid "Total VAT"
+msgstr " اجمالي الضريبة"
+
+#: admins/templates/dashb.html:163
+msgid "Total With VAT"
+msgstr "اجمالي السعر مع الضريبة"
+
+#: admins/templates/dashb.html:164 admins/templates/dashb.html:202
+msgid "Invoices Quantity"
+msgstr "عدد مرات الطلب"
+
+#: admins/templates/dashb.html:201
+msgid "Total Price With VAT"
+msgstr "اجمالي السعر مع الضريبة"
+
+#: admins/templates/dashb.html:235 admins/templates/dashb.html:272
+msgid "Total Price"
+msgstr "اجمالي السعر"
+
+#: admins/templates/dashb.html:236 admins/templates/dashb.html:299
+msgid "Measurement"
+msgstr "المقياس"
+
+#: admins/templates/dashb.html:238
+msgid "Purchase Times"
+msgstr "عدد مرات الشراء"
+
+#: admins/templates/dashb.html:274
+msgid "Total Orders"
+msgstr "اجمالي الطلبات"
+
+#: admins/templates/dashb.html:298
+msgid "Item"
+msgstr "العنصر"
+
+#: admins/templates/editCategory.html:115 admins/templates/editInvoice.html:129
+#: admins/templates/editOrder.html:154 admins/templates/editProducts.html:194
+#: admins/templates/editPurchases.html:173 admins/templates/editStaff.html:149
+#: admins/templates/editSupplier.html:114
+msgid "Save"
+msgstr "حفظ"
+
+#: admins/templates/editCounter.html:36
+msgid "Close Amount:"
+msgstr "مبلغ الاغلاق:"
+
+#: admins/templates/editInvoice.html:92 admins/templates/viewInvoice.html:62
+#: admins/templates/viewPurchases.html:50
+msgid "Amount:"
+msgstr "المبلغ :"
+
+#: admins/templates/editOrder.html:27
+msgid "Edit Order"
+msgstr "تعديل الطلب"
+
+#: admins/templates/editOrder.html:37 admins/templates/viewOrder.html:13
+msgid "Order #:"
+msgstr "رقم الطلب:"
+
+#: admins/templates/editOrder.html:44 admins/templates/viewCategory.html:18
+#: admins/templates/viewOrder.html:20 admins/templates/viewPage.html:19
+msgid "Created Date:"
+msgstr "تاريخ الطلب:"
+
+#: admins/templates/editOrder.html:50 admins/templates/viewCategory.html:24
+#: admins/templates/viewOrder.html:26 admins/templates/viewPage.html:25
+msgid "Modified Date:"
+msgstr " تاريخ التعديل على الطلب:"
+
+#: admins/templates/editOrder.html:58 admins/templates/viewOrder.html:34
+#: pos/templates/pos2.html:241 pos/templates/pos2.html:313
+msgid "Customer:"
+msgstr "العميل:"
+
+#: admins/templates/editOrder.html:83 admins/templates/viewOrder.html:49
+msgid "Table #:"
+msgstr "رقم الطاولة:"
+
+#: admins/templates/editOrder.html:99
+msgid "Status:"
+msgstr "الحالة:"
+
+#: admins/templates/editOrder.html:109 admins/templates/viewCategory.html:50
+#: admins/templates/viewOrder.html:56 admins/templates/viewPage.html:88
+msgid "Created By:"
+msgstr "منفذ الطلب:"
+
+#: admins/templates/editOrder.html:118 admins/templates/viewCategory.html:56
+#: admins/templates/viewOrder.html:62 admins/templates/viewPage.html:94
+msgid "Modified By:"
+msgstr "المعدل على الطلب:"
+
+#: admins/templates/editOrder.html:128 pos/templates/pos2.html:306
+msgid "Order Type:"
+msgstr "نوع الطلب:"
+
+#: admins/templates/editOrder.html:134 admins/templates/tax.html:34
+#: pos/templates/pos2.html:288
+msgid "Tax:"
+msgstr "الضريبة:"
+
+#: admins/templates/editOrder.html:140
+msgid "Waiter ID:"
+msgstr "رقم النادل:"
+
+#: admins/templates/editProducts.html:33
+msgid "Code"
+msgstr "الرمز"
+
+#: admins/templates/editPurchases.html:28
+msgid "Edit Purchasing"
+msgstr "تعديل المشتريات"
+
+#: admins/templates/invoicesList.html:48
+msgid "Add"
+msgstr "اضف"
+
+#: admins/templates/invoicesList.html:65 admins/templates/viewOrder.html:76
+msgid "Item Name"
+msgstr "الاسم"
+
+#: admins/templates/invoicesList.html:82
+msgid "Actions"
+msgstr "اجراءات"
+
+#: admins/templates/tax.html:43
+msgid "Include Tax:"
+msgstr "مع الضريبة:"
+
+#: admins/templates/upload_form.html:13 pos/templates/upload_form.html:12
+msgid "Categories Excel File:"
+msgstr "ملف التصنيفات"
+
+#: admins/templates/upload_form.html:16
+msgid "Download Category Excel file and replace data with yours"
+msgstr "اضغط هنا لتحميل ملف التصنيفات واستبدل البيانات بالبيانات الخاصة بك"
+
+#: admins/templates/upload_form.html:22 pos/templates/upload_form.html:18
+msgid "Products Excel File:"
+msgstr "ملف المنتجات"
+
+#: admins/templates/upload_form.html:25
+msgid "Download Product Excel file and replace data with yours"
+msgstr "اضغط هنا لتحميل ملف المنتجات واستبدل البيانات بالبيانات الخاصة بك"
+
+#: admins/templates/upload_form.html:31 pos/templates/upload_form.html:23
+msgid "Upload Products Images"
+msgstr "تحميل صور المنتجات"
+
+#: admins/templates/upload_form.html:37 pos/templates/upload_form.html:28
+msgid "All Excel files must end with .xlsx or .xls"
+msgstr ".xlsx or .xls يجب ان تنتهي جميع ملفات الايكسيل"
+
+#: admins/templates/upload_form.html:38 pos/templates/upload_form.html:29
+msgid "Upload"
+msgstr "تحميل"
+
+#: admins/templates/viewCategory.html:40 admins/templates/viewPage.html:78
+msgid "Name:"
+msgstr "الاسم:"
+
+#: admins/templates/viewOrder.html:68
+msgid "Waiter:"
+msgstr "النادل"
+
+#: admins/templates/viewOrder.html:75
+msgid "Item ID"
+msgstr "رمز العنصر :"
+
+#: admins/templates/viewOrder.html:77
+msgid "Item Price"
+msgstr "سعر العنصر"
+
+#: admins/templates/viewOrder.html:78
+msgid "Item Quantity"
+msgstr "الكمية"
+
+#: admins/templates/viewOrder.html:79
+msgid "Total Amount"
+msgstr " اجمالي الفاتورة:"
+
+#: admins/templates/viewOrder.html:94 pos/templates/pos2.html:284
+msgid "Sub Total:"
+msgstr "الاجمالي قبل الضريبة"
+
+#: admins/templates/viewOrder.html:95
+msgid "Vat:"
+msgstr "الضريبة:"
+
+#: admins/templates/viewOrder.html:96 pos/templates/pos2.html:296
+msgid "Total:"
+msgstr " الاجمالي:"
+
+#: admins/templates/viewPage.html:53 admins/templates/viewPage.html:60
+msgid "Total Price:"
+msgstr "اجمالي السعر:"
+
+#: admins/templates/viewPurchases.html:59
+#: admins/templates/viewPurchases.html:68
+msgid "Supplier Vat Number:"
+msgstr "الرقم الضريبي للمورد"
+
+#: admins/templates/viewPurchases.html:64
+msgid "Supplier Name:"
+msgstr "المورد:"
+
+#: admins/templates/viewStaff.html:33
+msgid "Branch Name:"
+msgstr "اسم الفرع:"
+
+#: admins/templates/viewStaff.html:98
+msgid "Shifts:"
+msgstr "المناوبة:"
+
+#: admins/views.py:1155
+msgid "Tables"
+msgstr "الطاولات"
+
+#: admins/views.py:1162
+msgid "Categories"
+msgstr "التصنيفات"
+
+#: admins/views.py:1169
+msgid "Customers"
+msgstr "العميل:"
+
+#: pos/templates/pos2.html:86 pos/templates/pos2.html:239
+msgid "Order #"
+msgstr "رقم الطلب:"
+
+#: pos/templates/pos2.html:87 pos/templates/pos2.html:240
+msgid "Table #"
+msgstr "رقم الطاولة:"
+
+#: pos/templates/pos2.html:88 pos/templates/pos2.html:242
+msgid "View"
+msgstr "اظهر"
+
+#: pos/templates/pos2.html:155
+msgid "New Order"
+msgstr "طلب جديد"
+
+#: pos/templates/pos2.html:257
+msgid "item"
+msgstr "العنصر"
+
+#: pos/templates/pos2.html:258
+msgid "price"
+msgstr "السعر "
+
+#: pos/templates/pos2.html:259
+msgid "qty."
+msgstr "الكمية"
+
+#: pos/templates/pos2.html:308
+msgid "Dinin"
+msgstr "محلي"
+
+#: pos/templates/pos2.html:309
+msgid "Take Away"
+msgstr "سفري"
+
+#: pos/templates/pos2.html:317
+msgid "Waiter Name:"
+msgstr "اسم النادل:"
+
+#: pos/templates/pos2.html:321
+msgid "Table Number:"
+msgstr "رقم الطاولة"
+
+#: pos/templates/pos2.html:324
+msgid "Payment Type:"
+msgstr "طريقة الدفع:"
+
+#: pos/templates/pos2.html:327
+msgid "Cash"
+msgstr "كاش"
+
+#: pos/templates/pos2.html:328
+msgid "Card"
+msgstr "شبكة"
+
+#: pos/templates/pos2.html:333
+msgid "Submit"
+msgstr "حفظ"
+
+#: pos/templates/pos2.html:340
+msgid "Checkout"
+msgstr "الدفع"
+
+#: pos/templates/pos2.html:343
+msgid "Cancel Order"
+msgstr "الغاء الطلب"
+
+#~ msgid "Unit:"
+#~ msgstr "الوحدة:"
+
+#~ msgid "Item:"
+#~ msgstr "العنصر:"
+
+#~ msgid "Invoice Number:"
+#~ msgstr "رقم الفاتورة:"
+
+#~ msgid "Remaining Amount:"
+#~ msgstr "المبلغ المتبقي:"
+
+#~ msgid "Net:"
+#~ msgstr "الصافي:"
+
+#~ msgid "Add More"
+#~ msgstr "اضف المزيد"
+
+#~ msgid "By Date"
+#~ msgstr "بالتاريخ"
+
+#~ msgid "Counters"
+#~ msgstr "نقاط البيع"
+
+#~ msgid "ID:"
+#~ msgstr "رمز التصنيف"
+
+#~ msgid "Purchase"
+#~ msgstr "المشتريات"
