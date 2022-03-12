@@ -143,11 +143,4 @@ CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 
 CRISPY_TEMPLATE_PACK = "bootstrap5"
 
-from django.views.static import serve
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FLUTTER_WEB_APP = os.path.join(BASE_DIR, 'webapp')
-
-
-def flutter_redirect(request, resource):
-    return serve(request, resource, FLUTTER_WEB_APP)

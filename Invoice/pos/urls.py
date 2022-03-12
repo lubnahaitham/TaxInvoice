@@ -1,5 +1,4 @@
-from django.conf import settings
-from django.conf.urls.static import static
+
 from django.urls import path
 from django.contrib.auth import views as auth_views
 from . import views
@@ -10,9 +9,7 @@ from . import views
 
 urlpatterns = [
 
-    # path('webapp/', lambda r: flutter_redirect(r, 'index.html')),
-    # path('webapp/<path:resource>', flutter_redirect),
-
+   
     # Login and Register
     path('register/', views.registerPage, name="register"),
     path('login/', views.loginPage, name="login"),
@@ -62,6 +59,4 @@ urlpatterns = [
     # path('close/invoice/', views.close_invoice, name='close_invoice_view'),
 
 ]
-urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
